@@ -23,7 +23,7 @@ fn main() {
             .include("/usr/include/suitesparse")
             .compile("c_code_main");
 
-        println!("cargo:rustc-link-lib=dylib=dmumps_seq");
+        println!("cargo:rustc-link-lib=dylib=dmumps");
         println!("cargo:rustc-link-lib=dylib=umfpack");
     }
 }

@@ -1,4 +1,4 @@
 fn main() {
-    println!("cargo:rustc-link-lib=dylib=openblas");
-    println!("cargo:rustc-link-lib=dylib=lapacke");
+    println!("cargo:rustc-link-lib=dylib=blas");
+    println!("cargo:rustc-link-lib=dylib=lapack");
 }
